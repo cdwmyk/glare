@@ -10,7 +10,7 @@
     "build:umd:min": "cross-env NODE_ENV=production webpack src/index.js dist/glare.min.js",
     "test": "babel-node ./node_modules/isparta/bin/isparta cover _mocha"
   },
-  "author": "Chris Wheatley <chriswheatley87@gmail.com>",
+  "author": "Chris Wheatley <>",
   "license": "MIT",
   "peerDependencies": {
     "react": "^15.0.0-0"
